@@ -36,3 +36,7 @@ target_link_libraries(proj PRIVATE pluginsdk::gtasa)
 
 ## Alternatives
 You can use [`FindPluginSDK.cmake`](https://gist.github.com/THE-FYP/104855c5fdd7311a336a5178a0b33118) if you want to use a different version of Plugin-SDK.
+
+## Original repo
+
+https://github.com/imring/plugin-sdk/tree/cmake
