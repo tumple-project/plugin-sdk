@@ -713,7 +713,7 @@ typedef RxPipeline      RxLockedPipe;
  */
 
 /**
- * \ingroup rwraster
+ * \ingroup 
  * \ref RwRasterLockMode represents the options available for locking 
  * a raster so that it may be modified (see API function \ref RwRasterLock). An 
  * application may wish to write to the raster, read from the raster or
@@ -894,6 +894,8 @@ struct RwRaster
     RwInt32             originalWidth;
     RwInt32             originalHeight;
     RwInt32             originalStride;
+
+    void*               texture_ptr;
 };
 #endif /* (!defined(DOXYGEN)) */
 
